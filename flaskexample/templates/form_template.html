@@ -1,0 +1,25 @@
+    <div class = "search">
+      <label for="form-group">Search:</label>
+      <form  action="/output" method="GET">
+        <div class="form-group">
+          <label for="start_year">After January 1 in Year:</label>
+          <input type="text" id="start_year" name='start_year' placeholder="e.g. 1970">
+	  <label for="end_year">Before December 31st in Year:</label>
+          <input type="text" id="end_year" name='end_year'
+        placeholder="leave blank for same year">
+
+	  <label for="Contaminant">Contaminant:</label>
+          <input type="text" id="contaminant" name='contaminant' placeholder="e.g. asbestos">
+	  	  <label for="Company">Company</label>
+          <input type="text" id="company" name='company' placeholder="e.g. Monsanto">
+
+
+	</div>
+
+        <div>
+          <button type="submit" class="btn btn-default
+          btn-lg">Visualize these documents!</button>
+        </div>
+
+      </form>
+    </div>
